@@ -278,7 +278,8 @@ ul.dropdown-menu.show li:hover {
 .border-bottom {
     border-bottom: 2px dashed #001C3D !important;
 }
-.we-offer h2{
+
+.we-offer h2 {
     text-align: center;
     color: #001C3D;
 }
@@ -292,6 +293,7 @@ ul.dropdown-menu.show li:hover {
     font-weight: 500;
     position: relative;
 }
+
 .weofferlist ul li::before {
     content: "";
     left: -30px;
@@ -412,10 +414,33 @@ ul.dropdown-menu.show li:hover {
     color: white;
 }
 
-.booking-section h2 {
+.booking-section h1 {
     color: #001C3D;
     font-weight: 800;
     font-size: 28px;
+}
+
+.booking-section label {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.booking-input,
+.booking-section textarea {
+    background-color: #DEDEDE;
+    border-radius: 8px;
+    border: none;
+    margin: 16px 0;
+}
+
+.booking-input {
+    height: 48px;
+}
+
+.booking-checkbox {
+    background-color: #DEDEDE;
+    width: 16px;
+    height: 16px;
 }
 
 

@@ -84,24 +84,199 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- End Navbar -->
-  <!-- Start Main Heading -->
-  <div class="conttext-section main-heading">
-    <h1 class="text-center py-4">Booking</h1>
-  </div>
-  <!-- End Main Heading -->
-  <!-- Start Booking Section -->
-  <div class="conttext-section">
-    <div class="container booking-section">
-      <h2 class="text-center mt-4">
-        PLEASE USE THE FORM BELOW TO CHECK FOR AVAILABILITY AND PRICE QUOTES!
-      </h2>
-      <h3 class="text-center ">
-        We accept same-day bookings with no less than 2 hours in advance, and
-        we also accept pre-arranged bookings with no more than 2 weeks in
-        advance.
-      </h3>
+    <!-- End Navbar -->
+    <!-- Start Main Heading -->
+    <div class="conttext-section main-heading">
+      <h1 class="text-center py-4">Booking</h1>
+    </div>
+    <!-- End Main Heading -->
+    <!-- Start Booking Section -->
+    <div class="conttext-section">
+      <div class="container booking-section">
+        <h1 class="text-center mt-4">
+          PLEASE USE THE FORM BELOW TO CHECK FOR AVAILABILITY AND PRICE QUOTES!
+        </h1>
+        <h3 class="text-center my-3">
+          We accept same-day bookings with no less than 2 hours in advance, and
+          we also accept pre-arranged bookings with no more than 2 weeks in
+          advance.
+        </h3>
+        <h2 class="text-center mt-4">Reserve a vehicle now...</h2>
+        <form class="row p-4">
+          <div class="col-12 col-md-6">
+            <label for="fname">YOUR FIRST NAME*</label>
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="fname"
+              id="fname"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="lname">YOUR LAST NAME*</label>
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="lname"
+              id="lname"
+            />
+          </div>
+          <div class="col-12">
+            <label for="mobNum">YOUR MOBILE PHONE NUMBER (NO LANDLINE)*</label>
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="mobNum"
+              id="mobNum"
+            />
+          </div>
+          <div class="col-12">
+            <label for="email">YOUR E-MAIL*</label>
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div class="col-12">
+            <label for="passenger"
+              >PASSENGER'S NAME (IF DIFFERENT FROM YOURS)*</label
+            >
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="passenger"
+              id="passenger"
+            />
+          </div>
+          <div class="col-12">
+            <label for="passengerMob"
+              >PASSENGER'S MOBILE PHONE NUMBER (IF DIFFERENT FROM YOURS)*</label
+            >
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="passengerMob"
+              id="passengerMob"
+            />
+          </div>
+          <div class="col-12">
+            <label for="pickups"
+              >PICK UP ADDRESS (FULL STREET ADDRESS WITH CITY, STATE AND ZIP
+              CODE)</label
+            >
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="pickups"
+              id="pickups"
+            />
+          </div>
+          <div class="col-12">
+            <label for="dropoff"
+              >DROP OFF ADDRESS (FULL STREET ADDRESS WITH CITY, STATE AND ZIP
+              CODE)</label
+            >
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="dropoff"
+              id="dropoff"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="pickupDate">PICK UP DATE*</label>
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="pickupDate"
+              id="pickupDate"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="pickupTime">PICK UP TIME*</label>
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="pickupTime"
+              id="pickupTime"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="returnDate">RETURN DATE (IF ROUND TRIP)</label>
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="returnDate"
+              id="returnDate"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="returnTime">RETURN TIME (IF ROUND TRIP)</label>
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="returnTime"
+              id="returnTime"
+            />
+          </div>
+          <div class="col-12 col-md-3">
+            <label for="totalPassengers">TOTAL PASSENGERS*</label>
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="totalPassengers"
+              id="totalPassengers"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="mobility"
+              >MOBILITY AID (WHEELCHAIR, WALKER, ETC.)*</label
+            >
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="mobility"
+              id="mobility"
+            />
+          </div>
+          <div class="col-12 col-md-3">
+            <label for="luggage">LUGGAGE*</label>
+            <input
+              class="booking-input w-100"
+              type="text"
+              name="luggage"
+              id="luggage"
+            />
+          </div>
+          <div class="col-12">
+            <label for="notes">SPECIAL NOTES AND ADDITIONAL INFORMATION</label>
+            <textarea
+              name="notes"
+              id="notes"
+              class="w-100"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <input
+              class="booking-checkbox"
+              type="checkbox"
+              name="luggage"
+              id="luggage"
+            />
+            <label for="notes"
+              >I AGREE TO THE TERMS OF USE AND PRIVACY POLICY</label
+            >
+          </div>
+          <div class="col-12 col-md-3 py-4">
+            <button class="btn btn-primary w-100 p-3 fs-4" type="submit">
+              SUBMIT
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
   <!-- End Booking Section -->
