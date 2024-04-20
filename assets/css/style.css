@@ -472,7 +472,10 @@ ul.dropdown-menu.show li:hover {
     margin: 16px 0;
     color: #000;
 }
-
+.logo-img{
+    max-width: 300px;
+    margin: auto;
+}
 
 
 
