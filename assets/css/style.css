@@ -387,6 +387,20 @@ ul.dropdown-menu.show li:hover {
     font-weight: 600;
     padding-top: 10px;
 }
+.serimg img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.ser-text h3{
+    color: #189A9A;
+    font-weight: 600;
+}
+.ser-text p{
+    color: #000;
+    font-weight: 500;
+    line-height: 1.7em;
+}
 
 /* New Style here */
 
