@@ -4,7 +4,8 @@
 
 p {
   font-family: "inter", sans-serif;
-  line-height: normal;
+  line-height: 1.7em;
+  font-weight: 500;
 }
 
 h1,
@@ -21,20 +22,25 @@ h6 {
 
 h1 {
 	font-size: 70px;
+    line-height: 1.7em;
 }
 
 h2 {
 	font-size: 36px;
+    color: #28A2A9;
+    line-height: 1.7em;
 }
 
 h3 {
-	font-size: 30px;
-  color: #001C3D;
+	font-size: 26px;
+    color: #001C3D;
+    line-height: 1.7em;
 }
 
 h4 {
 	font-size: 24px;
-  color: #001C3D;
+    color: #001C3D;
+    line-height: 1.7em;
 }
 
 h5 {
@@ -45,14 +51,6 @@ h6 {
 	font-size: 16px;
 }
 
-p {
-	font-size: 16px;
-	font-family: "Cairo", sans-serif;
-	color: #1F1F1F;
-	font-weight: 500;
-	line-height: 26px;
-	margin: 0 0 15px 0;
-}
 
 img {
   width: 100%;
@@ -224,11 +222,36 @@ ul.dropdown-menu.show li:hover{
 }
 .benner-text p {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 44px;
     letter-spacing: 0em;
     color: #fff;
 }
+.conttext-section{
+    padding: 40px;
+    width: 100%;
+    height: auto;
+}
+.btns-border{
+    border: 3px dashed #001C3D
+}
+.btn-primary{
+    background-color: #23CDCF;
+    color: #001C3D;
+    text-transform: uppercase;
+    border: #23CDCF;
+}
+.btn-primary:hover{
+    background-color: #23CDCF;
+    color: #001C3D;
+    text-transform: uppercase;
+    border: #23CDCF;
+}
+
+
+
+/* New Style here */
+
 
 
 
