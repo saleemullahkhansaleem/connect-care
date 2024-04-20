@@ -398,9 +398,9 @@ ul.dropdown-menu.show li:hover {
     color: white;
 }
 
-.booking-section p {
+.booking-section h2 {
     color: #001C3D;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 28px;
 }
 
