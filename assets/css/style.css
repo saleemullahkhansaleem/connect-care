@@ -306,48 +306,58 @@ ul.dropdown-menu.show li:hover {
     height: 184px;
     position: absolute;
 }
-.blogimg img{
+
+.blogimg img {
     width: 100%;
     height: auto;
     margin: auto;
 }
-.content-text{
+
+.content-text {
     text-align: center;
 }
-.content-text h3{
+
+.content-text h3 {
     color: #189A9A;
     font-weight: 600;
 }
-.content-text p{
+
+.content-text p {
     color: #000;
     font-weight: 500;
 }
-.book-section{
+
+.book-section {
     background-color: #30BFBF;
     margin-bottom: 8px;
     padding: 40px;
 }
-.btn-secondary{
+
+.btn-secondary {
     background-color: #001C3D;
     border: #001C3D;
     color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 500;
 }
-.btn-secondary:hover{
+
+.btn-secondary:hover {
     background-color: #001C3D;
     border: #001C3D;
     color: #FFFFFF;
 }
-.footer-section{
+
+.footer-section {
     background-color: #001C3D;
     padding: 40px;
     width: 100%;
     height: auto;
 }
+
 #footerlogo {
     width: 70%;
 }
+
 .widget h2 {
     cursor: pointer;
     font-size: 18px;
@@ -358,13 +368,16 @@ ul.dropdown-menu.show li:hover {
     line-height: 160.4%;
     text-transform: uppercase;
 }
+
 .widget_content ul {
     padding: 0px 8px;
 }
+
 .widget_content ul li {
     list-style: none;
     padding: 3px 3px;
 }
+
 #foot-icon {
     color: #FFFFFF;
     font-size: 14px;
@@ -379,6 +392,7 @@ ul.dropdown-menu.show li:hover {
     font-family: "inter", sans-serif;
     padding-left: 10px;
 }
+
 .footerb-text p {
     color: #5e5e5e;
     text-align: center;
@@ -387,16 +401,19 @@ ul.dropdown-menu.show li:hover {
     font-weight: 600;
     padding-top: 10px;
 }
-.serimg img{
+
+.serimg img {
     width: 100%;
     height: auto;
     margin: auto;
 }
-.ser-text h3{
+
+.ser-text h3 {
     color: #189A9A;
     font-weight: 600;
 }
-.ser-text p{
+
+.ser-text p {
     color: #000;
     font-weight: 500;
     line-height: 1.7em;
@@ -410,7 +427,6 @@ ul.dropdown-menu.show li:hover {
 }
 
 .main-heading h1 {
-    /* font-size: 64px; */
     color: white;
 }
 
@@ -441,6 +457,20 @@ ul.dropdown-menu.show li:hover {
     background-color: #DEDEDE;
     width: 16px;
     height: 16px;
+}
+
+.contact-section .contact-form {
+    background-color: #C3BFBF;
+    border: solid 2px #378D9B;
+    border-radius: 8px;
+}
+
+.contact-section .contact-form .input {
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    margin: 16px 0;
+    color: #000;
 }
 
 
