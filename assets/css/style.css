@@ -247,7 +247,9 @@ ul.dropdown-menu.show li:hover{
     text-transform: uppercase;
     border: #23CDCF;
 }
-
+.border-bottom{
+    border-bottom: 2px dashed #001C3D !important;
+}
 
 
 /* New Style here */
