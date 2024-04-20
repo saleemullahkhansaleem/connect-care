@@ -410,7 +410,7 @@ ul.dropdown-menu.show li:hover {
 }
 
 .main-heading h1 {
-    /* font-size: 64px; */
+    font-size: 64px;
     color: white;
 }
 
@@ -439,8 +439,8 @@ ul.dropdown-menu.show li:hover {
 
 .booking-checkbox {
     background-color: #DEDEDE;
-    width: 16px;
-    height: 16px;
+    width: 23px;
+    height: 23px;
 }
 
 
@@ -454,7 +454,7 @@ ul.dropdown-menu.show li:hover {
         color: #ffffff !important;
         height: 37px;
         padding: 23px 0;
-        background-color: #A32CCA !important;
+        background-color: #001C3D !important;
         text-align: center;
     }
 
@@ -474,6 +474,42 @@ ul.dropdown-menu.show li:hover {
         font-weight: 500;
         text-decoration: none;
         padding: 0px 5px;
+    }
+    .home-banner-section {
+        background: url(../images/benner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 55px 0;
+        height: auto;
+        min-height: 266px;
+        clear: both;
+    }
+    h3 {
+        font-size: 22px;
+        color: #001C3D;
+        line-height: 1.7em;
+    }
+    .conttext-section {
+        padding: 30px;
+        width: 100%;
+        height: auto;
+    }
+    h2 {
+        font-size: 32px;
+        color: #28A2A9;
+        line-height: 1.7em;
+    }
+    .main-heading h1 {
+        font-size: 50px;
+        color: white;
+    }
+    .booking-section label {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    #footerlogo {
+        width: 59%;
+        margin-bottom: 30px;
     }
 
 
@@ -507,7 +543,7 @@ ul.dropdown-menu.show li:hover {
         color: #ffffff !important;
         height: 37px;
         padding: 23px 0;
-        background-color: #A32CCA !important;
+        background-color: #001C3D !important;
         text-align: center;
     }
 
@@ -524,8 +560,41 @@ ul.dropdown-menu.show li:hover {
         display: none;
     }
 
-    .slider-section {
+    .home-banner-section {
+        background: url(../images/benner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 55px 0;
+        height: auto;
+        min-height: 266px;
+        clear: both;
+    }
+    h3 {
+        font-size: 22px;
+        color: #001C3D;
+        line-height: 1.7em;
+    }
+    .conttext-section {
+        padding: 30px;
         width: 100%;
+        height: auto;
+    }
+    h2 {
+        font-size: 32px;
+        color: #28A2A9;
+        line-height: 1.7em;
+    }
+    .main-heading h1 {
+        font-size: 50px;
+        color: white;
+    }
+    .booking-section label {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    #footerlogo {
+        width: 59%;
+        margin-bottom: 30px;
     }
 
 }
@@ -556,7 +625,7 @@ ul.dropdown-menu.show li:hover {
         color: #ffffff !important;
         height: 37px;
         padding: 23px 0;
-        background-color: #A32CCA !important;
+        background-color: #001C3D !important;
         text-align: center;
     }
 
@@ -573,8 +642,83 @@ ul.dropdown-menu.show li:hover {
         display: none;
     }
 
-    .slider-section {
+    .conttext-section {
+        padding: 15px;
         width: 100%;
+        height: auto;
+    }
+    .footer-section {
+        background-color: #001C3D;
+        padding: 25px;
+        width: 100%;
+        height: auto;
+    }
+    h2 {
+        font-size: 24px;
+        color: #28A2A9;
+        line-height: 1.7em;
+    }
+    h3 {
+        font-size: 22px;
+        color: #001C3D;
+        line-height: 1.7em;
+    }
+    .booking-section h1 {
+        color: #001C3D;
+        font-weight: 800;
+        font-size: 24px;
+    }
+    .main-heading h1 {
+        font-size: 30px;
+        color: white;
+        font-weight: 700;
+    }
+    .booking-checkbox {
+        background-color: #DEDEDE;
+        width: 25px;
+        height: 25px;
+    }
+    .booking-section label {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .weofferlist ul li::before {
+        left: -22px;
+        top: -73px;
+        width: 14px;
+        height: 175px;
+    }
+    .home-banner-section {
+        background: url(../images/benner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px 10px;
+        height: auto;
+        min-height: 200px;
+        clear: both;
+    }
+    .benner-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 61px;
+        letter-spacing: 0em;
+        color: #30BFBF;
+        text-transform: uppercase;
+    }
+    .benner-text h2 {
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+    .benner-text p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: 0em;
+        color: #fff;
     }
 }
 
