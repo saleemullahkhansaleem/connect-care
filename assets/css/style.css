@@ -1,11 +1,11 @@
 .body {
-  font-family: "inter", sans-serif;
+    font-family: "inter", sans-serif;
 }
 
 p {
-  font-family: "inter", sans-serif;
-  line-height: 1.7em;
-  font-weight: 500;
+    font-family: "inter", sans-serif;
+    line-height: 1.7em;
+    font-weight: 500;
 }
 
 h1,
@@ -14,100 +14,107 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
-	color: #28A2A9;
-	font-weight: 600;
-	font-family: "inter", sans-serif;
+    margin: 0;
+    color: #28A2A9;
+    font-weight: 600;
+    font-family: "inter", sans-serif;
 }
 
 h1 {
-	font-size: 70px;
+    font-size: 70px;
     line-height: 1.7em;
 }
 
 h2 {
-	font-size: 36px;
+    font-size: 36px;
     color: #28A2A9;
     line-height: 1.7em;
 }
 
 h3 {
-	font-size: 26px;
+    font-size: 26px;
     color: #001C3D;
     line-height: 1.7em;
 }
 
 h4 {
-	font-size: 24px;
+    font-size: 24px;
     color: #001C3D;
     line-height: 1.7em;
 }
 
 h5 {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 h6 {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 
 img {
-  width: 100%;
-  height: auto;
-  margin: auto;
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 div#navbarSupportedContent {
     justify-content: end;
-} 
-.bg-dark{
+}
+
+.bg-dark {
     background-color: #ffffff !important;
 }
-#logsedf{
+
+#logsedf {
     width: 70%;
 }
+
 .navbar-nav .nav-link {
     color: #000;
-    font-family: 'inter' , sans-serif;
+    font-family: 'inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7em;
     padding: 6px 15px !important;
 }
+
 .navbar-brand {
-    font-family: 'inter' , sans-serif;
+    font-family: 'inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: #000;
 }
-.active, .nav-link:hover {
+
+.active,
+.nav-link:hover {
     font-family: 'inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: #28A2A9 !important;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     color: #28A2A9;
 }
 
-ul.dropdown-menu.show li{
+ul.dropdown-menu.show li {
     border-bottom: 1px solid #28A2A9;
     padding: 10px 10px;
 }
 
-ul.dropdown-menu.show li a{
+ul.dropdown-menu.show li a {
     color: #000;
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
-    font-family:  'inter', sans-serif;
+    font-family: 'inter', sans-serif;
 }
 
 
-ul.dropdown-menu.show li:hover{
+ul.dropdown-menu.show li:hover {
     background-color: #28A2A9;
 }
 
@@ -132,15 +139,18 @@ ul.dropdown-menu.show li:hover{
     float: right;
     margin-bottom: -15px;
 }
+
 .tophead-social ul {
     padding: 0px 0px;
 }
+
 .tophead-social ul li {
     display: inline-block;
     margin: 0;
     border-radius: 6px;
     color: #ffffff;
 }
+
 .tophead-social ul li a {
     color: #ffffff;
     font-size: 16px;
@@ -151,14 +161,16 @@ ul.dropdown-menu.show li:hover{
     justify-content: center;
     font-family: 'inter', sans-serif;
 }
-.paraxdotop-header{
+
+.paraxdotop-header {
     background-color: #333333;
     width: 100%;
     height: auto;
     padding: 0px 0px;
 }
-.tophead-text{
-    font-family: 'inter' , sans-serif;
+
+.tophead-text {
+    font-family: 'inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -167,20 +179,25 @@ ul.dropdown-menu.show li:hover{
     text-align: center;
     float: left;
 }
+
 .header-top-nav.list-inline li {
     display: inline-block;
 }
+
 .header-top .header-top-nav .menu-item {
     padding: 0;
 }
-.element{
+
+.element {
     float: right;
 }
-.element ul{
+
+.element ul {
     margin-top: 0px;
     margin-bottom: 4px;
     color: #fff;
 }
+
 .element ul li a {
     color: #fff;
     font-size: 14px;
@@ -188,13 +205,16 @@ ul.dropdown-menu.show li:hover{
     text-decoration: none;
     padding: 0px 10px;
 }
+
 .header-top .header-top-nav .menu-item a {
     color: #fff;
     position: relative;
 }
-.ico-col{
+
+.ico-col {
     color: #fff;
 }
+
 .home-banner-section {
     background: url(../images/benner.png);
     background-repeat: no-repeat;
@@ -204,6 +224,7 @@ ul.dropdown-menu.show li:hover{
     min-height: 266px;
     clear: both;
 }
+
 .benner-text h1 {
     font-size: 65px;
     font-weight: 600;
@@ -212,6 +233,7 @@ ul.dropdown-menu.show li:hover{
     color: #30BFBF;
     text-transform: uppercase;
 }
+
 .benner-text h2 {
     font-size: 50px;
     font-weight: 700;
@@ -220,6 +242,7 @@ ul.dropdown-menu.show li:hover{
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
 .benner-text p {
     font-size: 18px;
     font-weight: 500;
@@ -227,27 +250,32 @@ ul.dropdown-menu.show li:hover{
     letter-spacing: 0em;
     color: #fff;
 }
-.conttext-section{
+
+.conttext-section {
     padding: 40px;
     width: 100%;
     height: auto;
 }
-.btns-border{
+
+.btns-border {
     border: 3px dashed #001C3D
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #23CDCF;
     color: #001C3D;
     text-transform: uppercase;
     border: #23CDCF;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: #23CDCF;
     color: #001C3D;
     text-transform: uppercase;
     border: #23CDCF;
 }
-.border-bottom{
+
+.border-bottom {
     border-bottom: 2px dashed #001C3D !important;
 }
 .we-offer h2{
@@ -281,6 +309,22 @@ ul.dropdown-menu.show li:hover{
 /* New Style here */
 
 
+.main-heading {
+    background: #28A2A9;
+}
+
+.main-heading h1 {
+    /* font-size: 64px; */
+    color: white;
+}
+
+.booking-section p {
+    color: #001C3D;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+
 
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
@@ -294,14 +338,17 @@ ul.dropdown-menu.show li:hover{
         background-color: #A32CCA !important;
         text-align: center;
     }
-    #logsedf{
+
+    #logsedf {
         width: 55%;
     }
+
     .tophead-text {
         font-weight: 400;
         font-size: 13px;
         line-height: 24px;
     }
+
     .element ul li a {
         color: #fff;
         font-size: 14px;
@@ -310,7 +357,7 @@ ul.dropdown-menu.show li:hover{
         padding: 0px 5px;
     }
 
-    
+
 
 }
 
@@ -319,11 +366,13 @@ ul.dropdown-menu.show li:hover{
     .navbar .navbar-brand {
         width: 70%;
     }
+
     .navbar-expand-sm .navbar-collapse {
-        display: flex!important;
+        display: flex !important;
         flex-basis: auto;
         justify-content: center;
     }
+
     .navbar-dark .navbar-nav .nav-link {
         color: #fff !important;
         font-style: normal;
@@ -331,6 +380,7 @@ ul.dropdown-menu.show li:hover{
         font-size: 14px;
         font-family: "inter", sans-serif;
     }
+
     a.nav-link {
         margin-left: 0;
         font-size: 14px;
@@ -341,39 +391,46 @@ ul.dropdown-menu.show li:hover{
         background-color: #A32CCA !important;
         text-align: center;
     }
+
     .navbar-brand {
         font-weight: 300;
         font-size: 10px;
     }
+
     #logsedf {
         width: 50%;
     }
-    .tophead-text{
+
+    .tophead-text {
         display: none;
     }
+
     .slider-section {
         width: 100%;
     }
-    
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .navbar .navbar-brand {
+    .navbar .navbar-brand {
         width: 70%;
-  }
-  .navbar-expand-sm .navbar-collapse {
-        display: flex!important;
+    }
+
+    .navbar-expand-sm .navbar-collapse {
+        display: flex !important;
         flex-basis: auto;
         justify-content: center;
-  }
-  .navbar-dark .navbar-nav .nav-link {
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
         color: #fff !important;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         font-family: "inter", sans-serif;
-  }
-  a.nav-link {
+    }
+
+    a.nav-link {
         margin-left: 0;
         font-size: 14px;
         font-family: "inter", sans-serif;
@@ -382,20 +439,24 @@ ul.dropdown-menu.show li:hover{
         padding: 23px 0;
         background-color: #A32CCA !important;
         text-align: center;
-  }
-  .navbar-brand {
+    }
+
+    .navbar-brand {
         font-weight: 300;
         font-size: 10px;
-  }
-  #logsedf {
+    }
+
+    #logsedf {
         width: 50%;
-  }
-  .tophead-text{
+    }
+
+    .tophead-text {
         display: none;
-  }
-  .slider-section {
+    }
+
+    .slider-section {
         width: 100%;
-  }
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1380px) {
@@ -406,8 +467,9 @@ ul.dropdown-menu.show li:hover{
         color: #000;
         height: 37px;
     }
-    #logsedf{
+
+    #logsedf {
         width: 55%;
     }
-    
+
 }
